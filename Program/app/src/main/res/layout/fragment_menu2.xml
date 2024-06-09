@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="753dp"
+            android:layout_height="1412dp"
+            android:src="@drawable/bg_sea1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-63dp"
+            tools:layout_editor_absoluteY="-139dp" />
+
+        <TextView
+            android:id="@+id/Ikan_karang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ikan karang"
+            android:textColor="@color/white"
+            android:textFontWeight="@integer/material_motion_duration_long_1"
+            android:textSize="55dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="274dp"
+            tools:layout_editor_absoluteY="82dp" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="121dp"
+            android:layout_height="60dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="905dp" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="122dp"
+            android:layout_height="55dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="254dp"
+            tools:layout_editor_absoluteY="904dp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="106dp"
+            android:layout_height="58dp"
+            android:text="Button"
+            tools:layout_editor_absoluteX="494dp"
+            tools:layout_editor_absoluteY="904dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="489dp"
+            android:layout_height="624dp"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="212dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ikan karang" />
+
+            <ImageView
+                android:id="@+id/ikankarang"
+                android:layout_width="match_parent"
+                android:layout_height="427dp"
+                android:layout_weight="1"
+                android:src="@drawable/blue_fish_pict" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
