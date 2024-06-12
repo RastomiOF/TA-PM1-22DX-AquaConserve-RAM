@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Explore"
+        android:id="@+id/explore"
+        android:icon="@drawable/explore_24dp_fill0_wght400_grad0_opsz24"></item>
+    <item android:title="Article"
+        android:id="@+id/article"
+        android:icon="@drawable/article_24dp_fill0_wght400_grad0_opsz24"></item>
+    <item android:title="Education"
+        android:id="@+id/education"
+        android:icon="@drawable/history_edu_24dp_fill0_wght400_grad0_opsz24"></item>
+</menu>

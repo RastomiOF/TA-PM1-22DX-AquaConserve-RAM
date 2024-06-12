@@ -23,48 +23,60 @@
                 android:layout_height="wrap_content"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="1.0"
-                app:layout_constraintStart_toStartOf="parent" />
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:menu="@menu/button_nav" />
 
             <FrameLayout
-                android:layout_width="0dp"
-                android:layout_height=""
-                app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
-                app:layout_constraintEnd_toEndOf="parent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent">
 
-                <ImageView
-                    android:id="@+id/imageView"
-                    android:layout_width="454dp"
-                    android:layout_height="788dp"
-                    android:src="@drawable/home_backgorund" />
-
-                <View
-                    android:id="@+id/view2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
-
-                <TextView
-                    android:id="@+id/Explore"
-                    android:layout_width="379dp"
-                    android:layout_height="0dp"
-                    android:layout_weight="1"
-                    android:fontFamily=""
-                    android:text="Explore"
-                    android:textColor="@color/white"
-                    android:textSize="38dp"
-                    tools:ignore="MissingConstraints" />
-
-                <TextView
-                    android:id="@+id/jenisikan"
-                    android:layout_width="154dp"
-                    android:layout_height="37dp"
-                    android:text="Jenis-jenis ikan"
-                    android:textColor="@color/white"
-                    android:textSize="18dp"
-                    tools:ignore="MissingConstraints" />
             </FrameLayout>
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="454dp"
+                android:layout_height="788dp"
+                android:src="@drawable/home_backgorund" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <TextView
+                android:id="@+id/Explore"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:background="@color/black"
+                android:layout_margin="10dp"
+                android:fontFamily="sans-serif"
+                android:text="Explore"
+                android:textColor="@color/white"
+                android:textSize="38dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints" />
+
+            <TextView
+                android:id="@+id/jenisikan"
+                android:layout_width="154dp"
+                android:layout_height="37dp"
+                android:layout_marginStart="16dp"
+                android:text="Jenis-jenis Ikan"
+                android:fontFamily="@font/robotoblack"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/Explore"
+                tools:ignore="MissingConstraints" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>
