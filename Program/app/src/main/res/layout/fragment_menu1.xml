@@ -27,26 +27,53 @@
                 app:layout_constraintStart_toStartOf="parent"
                 app:menu="@menu/button_nav" />
 
-            <FrameLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent">
-
-            </FrameLayout>
-
             <ImageView
                 android:id="@+id/imageView"
                 android:layout_width="454dp"
                 android:layout_height="788dp"
                 android:src="@drawable/home_backgorund" />
 
-            <View
-                android:id="@+id/view2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:layout_editor_absoluteX="0dp" />
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:layout_margin="15dp"
+                        android:background="@color/white"
+                        android:backgroundTint="#2CFFFFFF"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.0"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:layout_editor_absoluteY="107dp">
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="150dp"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="180dp"
+                            android:text="TextView"
+                            android:textColor="@color/white" />
+
+                        <ImageButton
+                            android:id="@+id/imageButton4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:backgroundTint="#00FFFFFF"
+                            android:src="@drawable/screenshot_2024_06_12_213356" />
+
+                    </FrameLayout>
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </FrameLayout>
 
             <TextView
                 android:id="@+id/Explore"
