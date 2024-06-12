@@ -23,39 +23,13 @@
             android:layout_width="150dp"
             android:layout_height="56dp"
             android:text="Artikel"
+            android:fontFamily="@font/robotoblack"
             android:textColor="@color/white"
             android:textFontWeight="@integer/material_motion_duration_medium_2"
             android:textSize="45dp"
             tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="235dp"
             tools:layout_editor_absoluteY="30dp" />
-
-        <Button
-            android:id="@+id/btnEksplorasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Eksplorasi"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="-4dp"
-            tools:layout_editor_absoluteY="683dp" />
-
-        <Button
-            android:id="@+id/btnArtikel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Artikel"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="160dp"
-            tools:layout_editor_absoluteY="683dp" />
-
-        <Button
-            android:id="@+id/btnEdukasi"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Edukasi"
-            tools:layout_editor_absoluteX="317dp"
-            tools:layout_editor_absoluteY="679dp"
-            tools:ignore="MissingConstraints" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </FrameLayout>

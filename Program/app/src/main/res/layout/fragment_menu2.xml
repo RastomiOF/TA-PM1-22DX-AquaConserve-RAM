@@ -32,33 +32,6 @@
             tools:layout_editor_absoluteX="274dp"
             tools:layout_editor_absoluteY="82dp" />
 
-        <Button
-            android:id="@+id/btnEksplorasi"
-            android:layout_width="135dp"
-            android:layout_height="79dp"
-            android:text="Eksplorasi"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="1dp"
-            tools:layout_editor_absoluteY="885dp" />
-
-        <Button
-            android:id="@+id/btnArtikel"
-            android:layout_width="128dp"
-            android:layout_height="80dp"
-            android:text="Artikel"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="239dp"
-            tools:layout_editor_absoluteY="881dp" />
-
-        <Button
-            android:id="@+id/btnEdukasi"
-            android:layout_width="135dp"
-            android:layout_height="83dp"
-            android:text="Edukasi"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="465dp"
-            tools:layout_editor_absoluteY="879dp" />
-
         <ImageView
             android:id="@+id/imageView9"
             android:layout_width="574dp"
