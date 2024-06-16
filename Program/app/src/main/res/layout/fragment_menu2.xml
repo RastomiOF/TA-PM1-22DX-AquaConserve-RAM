@@ -16,8 +16,8 @@
             android:layout_height="1427dp"
             android:src="@drawable/bg_sea1"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="-82dp"
-            tools:layout_editor_absoluteY="-348dp" />
+            tools:layout_editor_absoluteX="-41dp"
+            tools:layout_editor_absoluteY="-360dp" />
 
         <TextView
             android:id="@+id/Ikan_karang"
@@ -44,7 +44,7 @@
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="317dp"
             android:layout_height="44dp"
-            android:hint="hint"
+            android:hint="Cari"
             tools:layout_editor_absoluteX="70dp"
             tools:layout_editor_absoluteY="25dp" />
 
@@ -65,48 +65,50 @@
             tools:layout_editor_absoluteY="144dp" />
 
         <TextView
-            android:id="@+id/textView"
-            android:layout_width="383dp"
-            android:layout_height="714dp"
-            android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang merupakan habitat laut tropis dan subtropis yang sangat produktif dan kaya akan keanekaragaman hayati. Berikut adalah penjelasan lengkap mengenai ikan karang:
+            android:id="@+id/Ikankarang"
+            android:layout_width="364dp"
+            android:layout_height="437dp"
+            android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang berada di \n\n
+        perairan hangat dan dangkal. Berikut adalah ringkasan tentang ikan karang: \n\n
 
-1. Definisi dan Habitat
-- Definisi: Ikan karang adalah sekelompok ikan yang tinggal di sekitar terumbu karang. Mereka termasuk berbagai spesies dengan berbagai bentuk, ukuran, dan warna.
-- Habitat: Ikan karang hidup di terumbu karang yang ditemukan di perairan hangat, dangkal, dan jernih. Terumbu karang sendiri adalah struktur besar yang terbuat dari kalsium karbonat yang dihasilkan oleh koloni karang yang beraneka ragam.
+Habitat \n\n
+- Terumbu karang yang kaya akan keanekaragaman hayati dan terbuat dari kalsium karbonat. \n\n
 
-2. Jenis-jenis Ikan Karang
-- Ikan Hias: Banyak ikan karang yang berwarna-warni dan menarik, seperti ikan badut (clownfish), ikan angelfish, dan ikan butterflyfish. Mereka sering menjadi ikan hias dalam akuarium.
-- Ikan Konsumsi: Beberapa ikan karang juga dikonsumsi oleh manusia, seperti ikan kakap, kerapu, dan baronang.
-- Ikan Predatori: Ikan seperti hiu karang dan moray eel adalah predator yang hidup di sekitar terumbu karang dan memangsa ikan-ikan kecil serta invertebrata.
+Jenis \n\n
+- Ikan Hias: Seperti ikan badut dan angelfish. \n\n
+- Ikan Konsumsi: Seperti ikan kakap dan kerapu. \n\n
+- Ikan Predatori: Seperti hiu karang dan moray eel. \n\n
 
-3. Peran Ekologis
-- Biodiversitas: Ikan karang memainkan peran penting dalam menjaga keseimbangan ekosistem terumbu karang dengan mengontrol populasi invertebrata dan alga.
-- Rantai Makanan: Mereka menjadi bagian penting dari rantai makanan, baik sebagai pemangsa maupun sebagai mangsa bagi organisme lain.
-- Kesehatan Terumbu Karang: Banyak spesies ikan karang, seperti ikan parrotfish, membantu dalam pembersihan terumbu karang dari alga yang dapat merusak karang.
+Peran Ekologis \n\n
+- Menjaga keseimbangan ekosistem. \n\n
+- Bagian dari rantai makanan. \n\n
+- Membantu membersihkan terumbu dari alga. \n\n
 
-4. Ancaman terhadap Ikan Karang
-- Pemutihan Karang: Perubahan iklim yang menyebabkan peningkatan suhu laut dapat menyebabkan pemutihan karang, yang pada gilirannya mengurangi habitat ikan karang.
-- Penangkapan Berlebih: Penangkapan ikan yang tidak berkelanjutan dan penggunaan bahan peledak serta sianida merusak terumbu karang dan mengurangi populasi ikan karang.
-- Polusi dan Sedimentasi: Limbah industri, pertanian, dan kegiatan manusia lainnya yang mencemari laut dapat merusak terumbu karang dan mengganggu kehidupan ikan karang.
+Ancaman \n\n
+- Pemutihan karang akibat perubahan iklim. \n\n
+- Penangkapan berlebih dan penggunaan bahan peledak. \n\n
+- Polusi dan sedimentasi. \n\n
 
-5. Upaya Konservasi
-- Marine Protected Areas (MPAs): Pembentukan kawasan konservasi laut yang melindungi terumbu karang dari aktivitas manusia yang merusak.
-- Pengelolaan Perikanan Berkelanjutan: Praktik perikanan yang mempertimbangkan keberlanjutan populasi ikan karang dan kesehatan ekosistem.
-- Restorasi Terumbu Karang: Upaya untuk merehabilitasi dan menanam kembali karang yang telah rusak atau mati, seringkali dengan bantuan teknologi dan metode ilmiah.
+Upaya Konservasi \n\n
+- Pembentukan kawasan konservasi laut. \n\n
+- Pengelolaan perikanan berkelanjutan. \n\n
+- Restorasi terumbu karang. \n\n
 
-6. Penelitian dan Pendidikan
-- Penelitian: Studi ilmiah tentang ekologi, perilaku, dan genetika ikan karang untuk memahami lebih baik kebutuhan mereka dan bagaimana melindungi mereka.
-- Pendidikan: Meningkatkan kesadaran masyarakat tentang pentingnya terumbu karang dan ikan karang serta bagaimana tindakan manusia mempengaruhi mereka.
+Ekonomi dan Pariwisata \n\n
+- Ekowisata dan snorkeling. \n\n
+- Budidaya untuk perdagangan akuarium. \n\n
 
-7. Ekonomi dan Pariwisata
-- Pariwisata: Ekowisata dan snorkeling di terumbu karang menjadi sumber pendapatan penting bagi banyak komunitas pesisir.
-- Akuakultur: Beberapa spesies ikan karang dibudidayakan untuk perdagangan akuarium, yang membantu mengurangi tekanan penangkapan dari alam liar.
+Penelitian dan Pendidikan \n\n
+- Studi ilmiah dan peningkatan kesadaran masyarakat.\n\n
 
-Ikan karang adalah komponen kunci dari ekosistem terumbu karang yang sangat kompleks dan penting. Mereka tidak hanya berkontribusi pada keanekaragaman hayati laut tetapi juga mendukung ekonomi dan kehidupan masyarakat pesisir. Perlindungan dan pelestarian ikan karang dan habitatnya sangat penting untuk keberlanjutan ekosistem laut secara keseluruhan."
-            android:textAlignment="center"
+Ikan karang sangat penting bagi ekosistem laut dan ekonomi pesisir, \n\n
+        sehingga perlindungan mereka sangat krusial.\n\n"
             android:textColor="@color/white"
-            tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="276dp" />
+
+            android:textSize="10dp"
+            tools:ignore="ExtraText,MissingConstraints"
+            tools:layout_editor_absoluteX="23dp"
+            tools:layout_editor_absoluteY="267dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
