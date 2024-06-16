@@ -19,25 +19,13 @@
             tools:layout_editor_absoluteX="-41dp"
             tools:layout_editor_absoluteY="-360dp" />
 
-        <TextView
-            android:id="@+id/Ikan_karang"
-            android:layout_width="138dp"
-            android:layout_height="36dp"
-            android:text="Ikan karang"
-            android:textColor="@color/white"
-            android:textFontWeight="@integer/material_motion_duration_long_1"
-            android:fontFamily="@font/robotoblack"
-            android:textSize="25dp"
-            tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteX="38dp"
-            tools:layout_editor_absoluteY="108dp" />
-
         <SearchView
             android:layout_width="45dp"
             android:layout_height="44dp"
             android:scrollbarSize="35dp"
             tools:layout_editor_absoluteX="25dp"
-            tools:layout_editor_absoluteY="25dp">
+            tools:layout_editor_absoluteY="25dp"
+            tools:ignore="MissingConstraints">
 
         </SearchView>
 
@@ -46,69 +34,91 @@
             android:layout_height="44dp"
             android:hint="Cari"
             tools:layout_editor_absoluteX="70dp"
-            tools:layout_editor_absoluteY="25dp" />
+            tools:layout_editor_absoluteY="25dp"
+            tools:ignore="MissingConstraints" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="377dp"
             android:layout_height="60dp"
             tools:layout_editor_absoluteX="16dp"
-            tools:layout_editor_absoluteY="16dp">
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints">
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="175dp"
-            android:layout_height="123dp"
-            android:src="@drawable/blue_fish_pict"
-            tools:layout_editor_absoluteX="118dp"
-            tools:layout_editor_absoluteY="144dp" />
+        <ScrollView
+            android:layout_width="413dp"
+            android:layout_height="649dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteY="84dp">
 
-        <TextView
-            android:id="@+id/Ikankarang"
-            android:layout_width="364dp"
-            android:layout_height="437dp"
-            android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang berada di \n\n
-        perairan hangat dan dangkal. Berikut adalah ringkasan tentang ikan karang: \n\n
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
 
-Habitat \n\n
-- Terumbu karang yang kaya akan keanekaragaman hayati dan terbuat dari kalsium karbonat. \n\n
+                <TextView
+                    android:id="@+id/Ikan_karang"
+                    android:layout_width="138dp"
+                    android:layout_height="36dp"
+                    android:fontFamily="@font/robotoblack"
+                    android:text="Ikan karang"
+                    android:textColor="@color/white"
+                    android:textFontWeight="@integer/material_motion_duration_long_1"
+                    android:textSize="25dp"
+                    tools:ignore="MissingConstraints" />
 
-Jenis \n\n
-- Ikan Hias: Seperti ikan badut dan angelfish. \n\n
-- Ikan Konsumsi: Seperti ikan kakap dan kerapu. \n\n
-- Ikan Predatori: Seperti hiu karang dan moray eel. \n\n
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="175dp"
+                    android:layout_height="123dp"
+                    android:src="@drawable/blue_fish_pict" />
 
-Peran Ekologis \n\n
-- Menjaga keseimbangan ekosistem. \n\n
-- Bagian dari rantai makanan. \n\n
-- Membantu membersihkan terumbu dari alga. \n\n
+                <TextView
+                    android:id="@+id/Ikankarang"
+                    android:layout_width="match_parent"
+                    android:layout_height="490dp"
+                    android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang berada di \n\n
+                perairan hangat dan dangkal. Berikut adalah ringkasan tentang ikan karang: \n\n
 
-Ancaman \n\n
-- Pemutihan karang akibat perubahan iklim. \n\n
-- Penangkapan berlebih dan penggunaan bahan peledak. \n\n
-- Polusi dan sedimentasi. \n\n
+        Habitat \n\n
+        - Terumbu karang yang kaya akan keanekaragaman hayati dan terbuat dari kalsium karbonat. \n\n
 
-Upaya Konservasi \n\n
-- Pembentukan kawasan konservasi laut. \n\n
-- Pengelolaan perikanan berkelanjutan. \n\n
-- Restorasi terumbu karang. \n\n
+        Jenis \n\n
+        - Ikan Hias: Seperti ikan badut dan angelfish. \n\n
+        - Ikan Konsumsi: Seperti ikan kakap dan kerapu. \n\n
+        - Ikan Predatori: Seperti hiu karang dan moray eel. \n\n
 
-Ekonomi dan Pariwisata \n\n
-- Ekowisata dan snorkeling. \n\n
-- Budidaya untuk perdagangan akuarium. \n\n
+        Peran Ekologis \n\n
+        - Menjaga keseimbangan ekosistem. \n\n
+        - Bagian dari rantai makanan. \n\n
+        - Membantu membersihkan terumbu dari alga. \n\n
 
-Penelitian dan Pendidikan \n\n
-- Studi ilmiah dan peningkatan kesadaran masyarakat.\n\n
+        Ancaman \n\n
+        - Pemutihan karang akibat perubahan iklim. \n\n
+        - Penangkapan berlebih dan penggunaan bahan peledak. \n\n
+        - Polusi dan sedimentasi. \n\n
 
-Ikan karang sangat penting bagi ekosistem laut dan ekonomi pesisir, \n\n
-        sehingga perlindungan mereka sangat krusial.\n\n"
-            android:textColor="@color/white"
+        Upaya Konservasi \n\n
+        - Pembentukan kawasan konservasi laut. \n\n
+        - Pengelolaan perikanan berkelanjutan. \n\n
+        - Restorasi terumbu karang. \n\n
 
-            android:textSize="10dp"
-            tools:ignore="ExtraText,MissingConstraints"
-            tools:layout_editor_absoluteX="23dp"
-            tools:layout_editor_absoluteY="267dp" />
+        Ekonomi dan Pariwisata \n\n
+        - Ekowisata dan snorkeling. \n\n
+        - Budidaya untuk perdagangan akuarium. \n\n
+
+        Penelitian dan Pendidikan \n\n
+        - Studi ilmiah dan peningkatan kesadaran masyarakat.\n\n
+
+        Ikan karang sangat penting bagi ekosistem laut dan ekonomi pesisir, \n\n
+                sehingga perlindungan mereka sangat krusial.\n\n"
+                    android:textColor="@color/white"
+
+                    android:textSize="10dp"
+                    tools:ignore="ExtraText,MissingConstraints" />
+            </LinearLayout>
+        </ScrollView>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
