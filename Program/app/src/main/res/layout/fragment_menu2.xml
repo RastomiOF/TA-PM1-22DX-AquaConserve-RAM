@@ -47,10 +47,10 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <ScrollView
-            android:layout_width="413dp"
-            android:layout_height="649dp"
+            android:layout_width="436dp"
+            android:layout_height="689dp"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="84dp">
+            tools:layout_editor_absoluteY="75dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -76,8 +76,8 @@
 
                 <TextView
                     android:id="@+id/Ikankarang"
-                    android:layout_width="match_parent"
-                    android:layout_height="490dp"
+                    android:layout_width="467dp"
+                    android:layout_height="473dp"
                     android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang berada di \n\n
                 perairan hangat dan dangkal. Berikut adalah ringkasan tentang ikan karang: \n\n
 
