@@ -22,8 +22,8 @@
                 android:layout_width="454dp"
                 android:layout_height="788dp"
                 android:src="@drawable/home_backgorund"
-                tools:layout_editor_absoluteX="-43dp"
-                tools:layout_editor_absoluteY="-20dp" />
+                tools:layout_editor_absoluteX="-20dp"
+                tools:layout_editor_absoluteY="-26dp" />
 
             <View
                 android:id="@+id/view2"
@@ -42,33 +42,6 @@
                 tools:layout_editor_absoluteY="46dp"
                 tools:ignore="MissingConstraints" />
 
-            <Button
-                android:id="@+id/btnEksplorasi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Eksplorasi"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="685dp"
-                tools:ignore="MissingConstraints" />
-
-            <Button
-                android:id="@+id/btnArtikel"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Artikel"
-                tools:layout_editor_absoluteX="164dp"
-                tools:layout_editor_absoluteY="685dp"
-                tools:ignore="MissingConstraints" />
-
-            <Button
-                android:id="@+id/btnEdukasi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Edukasi"
-                tools:layout_editor_absoluteX="316dp"
-                tools:layout_editor_absoluteY="685dp"
-                tools:ignore="MissingConstraints" />
-
             <TextView
                 android:id="@+id/jenisikan"
                 android:layout_width="154dp"
@@ -80,13 +53,12 @@
                 tools:layout_editor_absoluteX="74dp"
                 tools:layout_editor_absoluteY="97dp" />
 
-            <ListView
-                android:id="@+id/Jns ikan"
-                android:layout_width="333dp"
-                android:layout_height="66dp"
-                tools:ignore="MissingConstraints"
-                tools:layout_editor_absoluteX="39dp"
-                tools:layout_editor_absoluteY="307dp" />
+            <com.google.android.material.bottomnavigation.BottomNavigationView
+                android:layout_width="412dp"
+                android:layout_height="70dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

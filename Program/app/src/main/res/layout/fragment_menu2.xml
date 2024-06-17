@@ -25,9 +25,7 @@
             android:scrollbarSize="35dp"
             tools:layout_editor_absoluteX="25dp"
             tools:layout_editor_absoluteY="25dp"
-            tools:ignore="MissingConstraints">
-
-        </SearchView>
+            tools:ignore="MissingConstraints" />
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="317dp"
@@ -47,15 +45,22 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <ScrollView
-            android:layout_width="436dp"
-            android:layout_height="689dp"
+            android:layout_width="453dp"
+            android:layout_height="2084dp"
             tools:ignore="MissingConstraints"
-            tools:layout_editor_absoluteY="75dp">
+            tools:layout_editor_absoluteX="-5dp"
+            tools:layout_editor_absoluteY="-704dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
 
                 <TextView
                     android:id="@+id/Ikan_karang"
@@ -76,8 +81,8 @@
 
                 <TextView
                     android:id="@+id/Ikankarang"
-                    android:layout_width="467dp"
-                    android:layout_height="473dp"
+                    android:layout_width="495dp"
+                    android:layout_height="875dp"
                     android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang berada di \n\n
                 perairan hangat dan dangkal. Berikut adalah ringkasan tentang ikan karang: \n\n
 
@@ -111,12 +116,43 @@
                 Penelitian dan Pendidikan \n\n
                 - Studi ilmiah dan peningkatan kesadaran masyarakat.\n\n
 
-                Ikan karang sangat penting bagi ekosistem laut dan ekonomi pesisir, \n\n
-                sehingga perlindungan mereka sangat krusial.\n\n"
+        Ikan karang sangat penting bagi ekosistem laut dan ekonomi pesisir, \n\n
+                sehingga perlindungan mereka sangat krusial.\n\n
+
+        Berikut adalah beberapa jenis ikan karang yang umum ditemukan:\n\n
+
+            1. Ikan Badut (Clownfish)\n
+            2. Ikan Angelfish\n
+            3. Ikan Butterflyfish\n
+            4. Ikan Parrotfish\n
+            5. Ikan Surgeonfish\n
+            6. Ikan Goby\n
+            7. Ikan Wrasse\n
+            8. Ikan Tang\n
+            9. Ikan Lionfish\n
+            10. Ikan Kerapu\n
+            11. Ikan Kakap\n
+            12. Ikan Moray Eel\n
+            13. Ikan Boxfish\n
+            14. Ikan Hawkfish\n
+            15. Ikan Damsel\n"
                     android:textColor="@color/white"
 
                     android:textSize="10dp"
                     tools:ignore="ExtraText,MissingConstraints" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="205dp"
+                        android:layout_height="153dp"
+                        android:src="@drawable/tukik_penyu_hijau__1_"
+                        tools:layout_editor_absoluteX="5dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
             </LinearLayout>
         </ScrollView>
 
