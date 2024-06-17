@@ -17,17 +17,83 @@
             android:layout_width="wrap_content"
             android:layout_height="910dp"
             android:src="@drawable/eksplorasi_background"
+            tools:ignore="MissingConstraints"
             tools:layout_editor_absoluteX="0dp"
-            tools:layout_editor_absoluteY="-36dp" />
+            tools:layout_editor_absoluteY="-49dp" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="206dp"
             android:layout_height="74dp"
-            android:text="Education"
-            android:textSize="43dp"
             android:fontFamily="@font/robotoblack"
-            android:textColor="@color/white" />
+            android:text="Education"
+            android:textColor="@color/white"
+            android:textSize="43dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="4dp"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="155dp"
+            android:layout_height="102dp"
+            android:src="@drawable/coat_of_arms_of_the_people_s_representative_council_of_indonesia"
+            tools:layout_editor_absoluteX="128dp"
+            tools:layout_editor_absoluteY="78dp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UU NO. 32, LN 2014/NO. 294, TLN. NO. 5603, LL SETNEG"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="206dp"
+            tools:ignore="MissingConstraints" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="UNDANG-UNDANG TENTANG KELAUTAN"
+            android:textColor="@color/white"
+            android:textSize="11dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="225dp" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="323dp"
+            android:layout_height="119dp"
+            android:text="Pengelolaan sumber daya kelautan dilakukan melalui sebuah kerangka hukum untuk memberikan kepastian hukum dan manfaat bagi seluruh masyarakat sebagai negara kepulauan yang berciri nusantara, dengan membentuk Undang-Undang tentang Kelautan."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="266dp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="324dp"
+            android:layout_height="87dp"
+            android:text="Dasar hukum Undang-Undang ini adalah : Pasal 20, Pasal 22D ayat (1), Pasal 25A, dan Pasal 33 ayat (3) Undang-Undang Dasar Ncgara Republik Indonesia Tahun 1945."
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="394dp" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="324dp"
+            android:layout_height="154dp"
+            android:textColor="@color/white"
+            android:textAlignment="center"
+            android:text="Dalam undang-undang ini diatur tentang : Ruang lingkup, wilayah laut; pembangunan kelautan; pengelolaan kelautan; pengembangan kelautan; pengelolaan ruang laut dan pelindungan lingkungan laut; pertahanan, keamanan, penegakan hukum, dan keselamatan di laut; Tata kelola dan kelembagaan laut; dan peran serta masyarakat."
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="40dp"
+            tools:layout_editor_absoluteY="489dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
