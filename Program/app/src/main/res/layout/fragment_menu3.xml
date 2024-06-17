@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="910dp"
+            android:src="@drawable/eksplorasi_background"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="-36dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="206dp"
+            android:layout_height="74dp"
+            android:text="Education"
+            android:textSize="43dp"
+            android:fontFamily="@font/robotoblack"
+            android:textColor="@color/white" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
