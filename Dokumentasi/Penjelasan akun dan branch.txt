@@ -1,0 +1,5 @@
+Assalamualaikum wr. wb. pak
+Saya Azis Dinata dengan NPM 22312056
+Ingin konfirmasi pak, saya mengerjakan projek di satu device dengan miko. Saya sudah membuat branch dan nge push tugas menggunakan branch Azis.D dan sudah memakai akun github saya (AzisDinata29), namun saya lupa inisialisasi akun github saya di laptop miko. Jadi yang kebaca adalah akun github miko yang menggunakan branch Azis.D.
+Saya mohon dengan sangat untuk memaafkan kelalaian saya karena lupa inisialisasi akun github di android studio.
+Terimakasih, Wassalamualaikum wr. wb
