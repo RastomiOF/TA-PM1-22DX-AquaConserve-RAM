@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuFragment2">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="518dp"
+            android:layout_height="1427dp"
+            android:src="@drawable/bg_sea1"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-41dp"
+            tools:layout_editor_absoluteY="-360dp" />
+
+        <SearchView
+            android:layout_width="45dp"
+            android:layout_height="44dp"
+            android:scrollbarSize="35dp"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:ignore="MissingConstraints" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="317dp"
+            android:layout_height="44dp"
+            android:hint="Cari"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="25dp"
+            tools:ignore="MissingConstraints" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="377dp"
+            android:layout_height="60dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            tools:ignore="MissingConstraints">
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ScrollView
+            android:layout_width="461dp"
+            android:layout_height="3111dp"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="-5dp"
+            tools:layout_editor_absoluteY="78dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <TextView
+                    android:id="@+id/Ikan_karang"
+                    android:layout_width="168dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/robotoblack"
+                    android:text="Ikan karang"
+                    android:textColor="@color/white"
+                    android:textFontWeight="@integer/material_motion_duration_long_1"
+                    android:textSize="25dp"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="175dp"
+                    android:layout_height="123dp"
+                    android:src="@drawable/blue_fish_pict" />
+
+                <TextView
+                    android:id="@+id/Ikankarang"
+                    android:layout_width="495dp"
+                    android:layout_height="875dp"
+                    android:text="Ikan karang adalah ikan yang hidup di ekosistem terumbu karang, yang berada di \n\n
+                perairan hangat dan dangkal. Berikut adalah ringkasan tentang ikan karang: \n\n
+
+                Habitat \n\n
+                - Terumbu karang yang kaya akan keanekaragaman hayati dan terbuat dari kalsium karbonat. \n\n
+
+                Jenis \n\n
+                - Ikan Hias: Seperti ikan badut dan angelfish. \n\n
+                - Ikan Konsumsi: Seperti ikan kakap dan kerapu. \n\n
+                - Ikan Predatori: Seperti hiu karang dan moray eel. \n\n
+
+                Peran Ekologis \n\n
+                - Menjaga keseimbangan ekosistem. \n\n
+                - Bagian dari rantai makanan. \n\n
+                - Membantu membersihkan terumbu dari alga. \n\n
+
+                Ancaman \n\n
+                - Pemutihan karang akibat perubahan iklim. \n\n
+                - Penangkapan berlebih dan penggunaan bahan peledak. \n\n
+                - Polusi dan sedimentasi. \n\n
+
+                Upaya Konservasi \n\n
+                - Pembentukan kawasan konservasi laut. \n\n
+                - Pengelolaan perikanan berkelanjutan. \n\n
+                - Restorasi terumbu karang. \n\n
+
+                Ekonomi dan Pariwisata \n\n
+                - Ekowisata dan snorkeling. \n\n
+                - Budidaya untuk perdagangan akuarium. \n\n
+
+                Penelitian dan Pendidikan \n\n
+                - Studi ilmiah dan peningkatan kesadaran masyarakat.\n\n
+
+        Ikan karang sangat penting bagi ekosistem laut dan ekonomi pesisir, \n\n
+                sehingga perlindungan mereka sangat krusial.\n\n
+
+        Berikut adalah beberapa jenis ikan karang yang umum ditemukan:\n\n
+
+            1. Ikan Badut (Clownfish)\n
+            2. Ikan Angelfish\n
+            3. Ikan Butterflyfish\n
+            4. Ikan Parrotfish\n
+            5. Ikan Surgeonfish\n
+            6. Ikan Goby\n
+            7. Ikan Wrasse\n
+            8. Ikan Tang\n
+            9. Ikan Lionfish\n
+            10. Ikan Kerapu\n
+            11. Ikan Kakap\n
+            12. Ikan Moray Eel\n
+            13. Ikan Boxfish\n
+            14. Ikan Hawkfish\n
+            15. Ikan Damsel\n"
+                    android:textColor="@color/white"
+                    android:textSize="10dp"
+                    tools:ignore="ExtraText,MissingConstraints" />
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="803dp">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="205dp"
+                        android:layout_height="153dp"
+                        android:src="@drawable/tukik_penyu_hijau__1_"
+                        tools:layout_editor_absoluteX="16dp"
+                        tools:layout_editor_absoluteY="0dp" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoblack"
+                        android:text="Penyu"
+                        android:textColor="@color/white"
+                        android:textSize="35dp"
+                        tools:layout_editor_absoluteX="177dp"
+                        tools:layout_editor_absoluteY="146dp" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="408dp"
+                        android:layout_height="585dp"
+                        android:text="Penyu adalah reptil laut yang termasuk dalam ordo Testudines dan hidup di
+                        lautan tropis dan subtropis di seluruh dunia. Mereka terkenal karena migrasi jarak jauh yang
+                        mereka lakukan antara tempat makan dan tempat bertelur. Berikut adalah penjelasan tentang penyu
+                         dan jenis-jenisnya: \n\n
+
+                         Penyu
+                            - Definisi: Penyu adalah reptil dengan cangkang keras yang hidup di laut. Mereka
+                              bernafas dengan paru-paru tetapi menghabiskan sebagian besar hidupnya di air.
+                            - Habitat: Lautan tropis dan subtropis di seluruh dunia. Mereka bertelur di pantai
+                              berpasir.
+                            - Ciri-ciri: Cangkang keras, kaki berbentuk dayung untuk berenang, dan kemampuan
+                              bertahan hidup dalam kondisi air asin.\n\n
+
+                         Jenis-jenis Penyu \n\n
+
+                            1. Penyu Hijau (Chelonia mydas) \n
+                            2. Penyu Sisik (Eretmochelys imbricata) \n
+                            3. Penyu Tempayan (Caretta caretta) \n
+                            4. Penyu Belimbing (Dermochelys coriacea) \n
+                            5. Penyu Pipih (Natator depressus) \n
+                            6. Penyu Kemp's Ridley (Lepidochelys kempii) \n
+                            7. Penyu Ridley (Lepidochelys olivacea) \n\n
+
+                         Ancaman dan Konservasi
+                            - Ancaman: Perburuan untuk daging, cangkang, dan telur; kehilangan habitat pantai  \n
+                              untuk bertelur; polusi laut; tertangkap dalam alat tangkap ikan. \n
+                            - Upaya Konservasi: Perlindungan habitat bertelur, pengawasan perikanan, pusat  \n
+                              rehabilitasi penyu, dan program penangkaran.\n\n
+
+                            Penyu adalah bagian penting dari ekosistem laut dan perlu dilindungi untuk memastikan  \n
+                            kelestarian mereka dan keseimbangan ekosistem laut."
+                        android:textColor="@color/white"
+                        tools:layout_editor_absoluteX="31dp"
+                        tools:layout_editor_absoluteY="193dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="465dp"
+                    android:layout_height="762dp">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/robotoblack"
+                        android:text="Hiu"
+                        android:textColor="@color/white"
+                        android:textSize="35dp"
+                        tools:layout_editor_absoluteX="60dp"
+                        tools:layout_editor_absoluteY="16dp" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="433dp"
+                        android:layout_height="664dp"
+                        android:text="Hiu adalah sekelompok ikan yang termasuk dalam kelas
+                        Chondrichthyes, yang juga mencakup ikan pari dan chimera. Mereka terkenal
+                        dengan tubuh yang ramping, kemampuan berenang cepat, dan peran sebagai
+                        predator puncak dalam ekosistem laut. Berikut adalah penjelasan tentang hiu
+                        dan jenis-jenisnya: \n\n
+
+Hiu \n
+- Definisi: Hiu adalah ikan kartilaginous yang memiliki kerangka yang terdiri dari tulang rawan,
+bukan tulang keras. Mereka memiliki kulit kasar yang dilapisi dengan sisik dermal kecil yang disebut
+ dermal denticles. \n
+- Habitat: Hiu ditemukan di hampir semua perairan laut di seluruh dunia, dari perairan dangkal dekat
+ pantai hingga kedalaman laut dalam.\n
+- Ciri-ciri: Mereka memiliki sirip punggung yang khas, gigi yang terus tumbuh dan digantikan, serta
+ kemampuan indera yang sangat baik untuk mendeteksi mangsa.\n\n
+
+Jenis-jenis Hiu \n\n
+
+1. Hiu Putih Besar (Carcharodon carcharias) \n
+2. Hiu Martil (Sphyrnidae) \n
+3. Hiu Paus (Rhincodon typus) \n
+4. Hiu Harimau (Galeocerdo cuvier) \n
+5. Hiu Makarel (Isurus oxyrinchus) \n
+6. Hiu Perawat (Ginglymostoma cirratum) \n
+7. Hiu Karang Hitam (Carcharhinus melanopterus) \n
+8. Hiu Biru (Prionace glauca) \n
+9. Hiu Goblin (Mitsukurina owstoni) \n\n
+
+Ancaman dan Konservasi \n
+- Ancaman: Overfishing, penangkapan tidak sengaja, perburuan untuk sirip hiu (finning), degradasi
+habitat, dan polusi laut. \n
+- Upaya Konservasi: Perlindungan hukum dan peraturan penangkapan, kawasan konservasi laut, program
+penelitian dan pemantauan populasi, serta kampanye kesadaran publik.\n
+
+Hiu memainkan peran penting dalam menjaga keseimbangan ekosistem laut sebagai predator puncak, dan
+perlindungan mereka sangat penting untuk kelestarian ekosistem laut yang sehat. \n"
+                        android:textColor="@color/white"
+                        tools:layout_editor_absoluteX="19dp"
+                        tools:layout_editor_absoluteY="85dp" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+            </LinearLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
