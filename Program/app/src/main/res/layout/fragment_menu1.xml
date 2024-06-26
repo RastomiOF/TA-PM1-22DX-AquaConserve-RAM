@@ -80,6 +80,39 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
 
+                                <TextView
+                                    android:id="@+id/txtfish"
+                                    android:layout_width="125dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="27dp"
+                                    android:background="@color/white"
+                                    android:gravity="center"
+                                    android:text="Fish"
+                                    android:textStyle="bold|italic"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/btn_fish" />
+
+                                <ImageButton
+                                    android:id="@+id/btn_jellyfish"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/ubur"
+                                    android:layout_margin="15dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent" />
+
+                                <TextView
+                                    android:id="@+id/txtjelly"
+                                    android:layout_width="125dp"
+                                    android:layout_height="wrap_content"
+                                    android:text="Jelly-Fish"
+                                    android:gravity="center"
+                                    android:textStyle="bold|italic"
+                                    android:layout_marginRight="27dp"
+                                    android:background="@color/white"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/btn_jellyfish" />
+
                                 <ImageButton
                                     android:id="@+id/btn_fish"
                                     android:layout_width="wrap_content"
@@ -89,17 +122,26 @@
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
 
+                                <ImageButton
+                                    android:id="@+id/btn_turtle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/turtle"
+                                    android:layout_margin="15dp"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtfish" />
+
                                 <TextView
-                                    android:id="@+id/txtfish"
+                                    android:id="@+id/txtturtle"
                                     android:layout_width="125dp"
                                     android:layout_height="wrap_content"
-                                    android:text="Fish"
-                                    android:gravity="center"
-                                    android:textStyle="bold|italic"
                                     android:layout_marginLeft="27dp"
                                     android:background="@color/white"
+                                    android:gravity="center"
+                                    android:text="Turtle"
+                                    android:textStyle="bold|italic"
                                     app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/btn_fish" />
+                                    app:layout_constraintTop_toBottomOf="@+id/btn_turtle" />" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
                         </FrameLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
