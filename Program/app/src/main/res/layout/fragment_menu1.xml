@@ -84,7 +84,7 @@
                                     android:id="@+id/txtfish"
                                     android:layout_width="125dp"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="27dp"
+                                    android:layout_marginLeft="40dp"
                                     android:background="@color/white"
                                     android:gravity="center"
                                     android:text="Fish"
@@ -108,7 +108,7 @@
                                     android:text="Jelly-Fish"
                                     android:gravity="center"
                                     android:textStyle="bold|italic"
-                                    android:layout_marginRight="27dp"
+                                    android:layout_marginRight="40dp"
                                     android:background="@color/white"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/btn_jellyfish" />
@@ -131,17 +131,38 @@
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/txtfish" />
 
+                                <ImageButton
+                                    android:id="@+id/btn_seahorses"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/kudalaut"
+                                    android:layout_margin="15dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/txtjelly" />
+
                                 <TextView
                                     android:id="@+id/txtturtle"
                                     android:layout_width="125dp"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="27dp"
+                                    android:layout_marginLeft="40dp"
                                     android:background="@color/white"
                                     android:gravity="center"
                                     android:text="Turtle"
                                     android:textStyle="bold|italic"
                                     app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/btn_turtle" />" />
+                                    app:layout_constraintTop_toBottomOf="@+id/btn_turtle"/>
+
+                                <TextView
+                                    android:id="@+id/textView"
+                                    android:layout_width="125dp"
+                                    android:layout_height="wrap_content"
+                                    android:background="@color/white"
+                                    android:gravity="center"
+                                    android:text="SeaHorses"
+                                    android:textStyle="bold|italic"
+                                    android:layout_marginRight="40dp"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/btn_seahorses" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
                         </FrameLayout>
                     </androidx.constraintlayout.widget.ConstraintLayout>
