@@ -1,12 +1,10 @@
 package com.example.halamanawal
 
-import android.annotation.SuppressLint
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -31,32 +29,12 @@ class MenuFragment1 : Fragment() {
         }
     }
 
-    private fun findNavController(): Any {
-        TODO("Not yet implemented")
-    }
-
-    @SuppressLint("MissingInflatedId")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        val view =  inflater.inflate(R.layout.fragment_menu1, container, false)
-
-        // Menambahkan klik listener untuk button
-        val btnArtikel: Button = view.findViewById(R.id.btnArtikel)
-        btnArtikel.setOnClickListener {
-        }
-
-        val btnEksplorasi: Button = view.findViewById(R.id.btnEksplorasi)
-        btnEksplorasi.setOnClickListener {
-        }
-
-        val btnEdukasi: Button = view.findViewById(R.id.btnEdukasi)
-        btnEdukasi.setOnClickListener {
-        }
-
-        return TODO("Provide the return value")
+        return inflater.inflate(R.layout.fragment_menu1, container, false)
     }
 
     companion object {
@@ -66,7 +44,7 @@ class MenuFragment1 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment BlankFragment1.
+         * @return A new instance of fragment MenuFragment1.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
