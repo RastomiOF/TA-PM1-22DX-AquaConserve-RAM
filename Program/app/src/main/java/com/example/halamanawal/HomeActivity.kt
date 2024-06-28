@@ -21,7 +21,7 @@ class HomeActivity : AppCompatActivity() {
 
         // Pindah ke Activity2 setelah 3 detik
         Handler().postDelayed({
-            val intent = Intent(this, MenuFragment1::class.java)
+            val intent = Intent(this, ExploreActivity::class.java)
             startActivity(intent)
             finish()
         }, 3000) // 3000 milliseconds = 3 detik

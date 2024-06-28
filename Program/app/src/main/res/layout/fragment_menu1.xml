@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Menu1Fragment">
+    tools:context=".MenuFragment1">
 
     <!-- TODO: Update blank fragment layout -->
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -15,7 +15,6 @@
             android:id="@+id/frm_explore"
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            app:layout_constraintBottom_toTopOf="@+id/bott_nav"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -24,29 +23,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
-                <TextView
-                    android:id="@+id/headline"
-                    android:layout_width="match_parent"
-                    android:layout_height="75dp"
-                    android:background="@color/black"
-                    android:gravity="center"
-                    android:text="EXPLORE"
-                    android:textAlignment="center"
-                    android:textColor="@color/BlueSea"
-                    android:textSize="38dp"
-                    android:textStyle="bold"
-                    app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent" />
-
                 <FrameLayout
+                    android:id="@+id/fm_cntn"
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/eksplorasi_background"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/headline"
-                    android:background="@drawable/eksplorasi_background">
+                    app:layout_constraintTop_toBottomOf="@+id/headline">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/lay_content"
@@ -54,20 +39,36 @@
                         android:layout_height="match_parent">
 
                         <TextView
+                            android:id="@+id/headline"
+                            android:layout_width="match_parent"
+                            android:layout_height="75dp"
+                            android:background="@color/black"
+                            android:gravity="center"
+                            android:text="EXPLORE"
+                            android:textAlignment="center"
+                            android:textColor="@color/BlueSea"
+                            android:textSize="38dp"
+                            android:textStyle="bold"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent" />
+
+                        <TextView
                             android:id="@+id/txt_jenis"
                             android:layout_width="match_parent"
                             android:layout_height="25dp"
+                            android:layout_margin="10dp"
                             android:gravity="center"
                             android:text="Jenis - Jenis Biota Laut"
                             android:textColor="@color/black"
                             android:textSize="16dp"
                             android:textStyle="bold"
-                            android:layout_margin="10dp"
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toStartOf="parent"
-                            app:layout_constraintTop_toTopOf="parent" />
+                            app:layout_constraintTop_toBottomOf="@+id/headline" />
 
                         <FrameLayout
+                            android:id="@+id/frm_btn"
                             android:layout_width="match_parent"
                             android:layout_height="0dp"
                             android:layout_margin="10dp"
@@ -96,8 +97,8 @@
                                     android:id="@+id/btn_jellyfish"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/ubur"
                                     android:layout_margin="15dp"
+                                    android:src="@drawable/ubur"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -105,11 +106,11 @@
                                     android:id="@+id/txtjelly"
                                     android:layout_width="125dp"
                                     android:layout_height="wrap_content"
-                                    android:text="Jelly-Fish"
-                                    android:gravity="center"
-                                    android:textStyle="bold|italic"
                                     android:layout_marginRight="40dp"
                                     android:background="@color/white"
+                                    android:gravity="center"
+                                    android:text="Jelly-Fish"
+                                    android:textStyle="bold|italic"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/btn_jellyfish" />
 
@@ -117,8 +118,8 @@
                                     android:id="@+id/btn_fish"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/ikan"
                                     android:layout_margin="15dp"
+                                    android:src="@drawable/ikan"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
 
@@ -126,8 +127,8 @@
                                     android:id="@+id/btn_turtle"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/turtle"
                                     android:layout_margin="15dp"
+                                    android:src="@drawable/turtle"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/txtfish" />
 
@@ -135,8 +136,8 @@
                                     android:id="@+id/btn_seahorses"
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
-                                    android:src="@drawable/kudalaut"
                                     android:layout_margin="15dp"
+                                    android:src="@drawable/kudalaut"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/txtjelly" />
 
@@ -150,17 +151,17 @@
                                     android:text="Turtle"
                                     android:textStyle="bold|italic"
                                     app:layout_constraintStart_toStartOf="parent"
-                                    app:layout_constraintTop_toBottomOf="@+id/btn_turtle"/>
+                                    app:layout_constraintTop_toBottomOf="@+id/btn_turtle" />
 
                                 <TextView
                                     android:id="@+id/textView"
                                     android:layout_width="125dp"
                                     android:layout_height="wrap_content"
+                                    android:layout_marginRight="40dp"
                                     android:background="@color/white"
                                     android:gravity="center"
                                     android:text="SeaHorses"
                                     android:textStyle="bold|italic"
-                                    android:layout_marginRight="40dp"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/btn_seahorses" />
                             </androidx.constraintlayout.widget.ConstraintLayout>
@@ -171,14 +172,6 @@
 
         </FrameLayout>
 
-        <com.google.android.material.bottomnavigation.BottomNavigationView
-            android:id="@+id/bott_nav"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:menu="@menu/button_nav"/>
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 </FrameLayout>
