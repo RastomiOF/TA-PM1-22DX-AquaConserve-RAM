@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import com.example.halamanawal.databinding.FragmentMenu1Binding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -14,10 +13,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [MenuFragment1.newInstance] factory method to
+ * Use the [JellyFishFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class MenuFragment1 : Fragment() {
+class JellyFishFragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -34,17 +33,8 @@ class MenuFragment1 : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding = FragmentMenu1Binding.inflate(inflater, container, false)
-        binding.btnFish.setOnClickListener{
-            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay ,IkanFragment()).commit()
-        }
-        binding.btnJellyfish.setOnClickListener{
-            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay ,JellyFishFragment()).commit()
-        }
-        binding.btnTurtle.setOnClickListener {
-            requireActivity().supportFragmentManager.beginTransaction().addToBackStack(null).replace(R.id.frm_lay ,KuraFragment()).commit()
-        }
-        return binding.root
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_jellyfish, container, false)
     }
 
     companion object {
@@ -54,12 +44,12 @@ class MenuFragment1 : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment MenuFragment1.
+         * @return A new instance of fragment JellyFishFragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            MenuFragment1().apply {
+            JellyFishFragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

@@ -30,8 +30,7 @@
                     android:background="@drawable/eksplorasi_background"
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintEnd_toEndOf="parent"
-                    app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toBottomOf="@+id/headline">
+                    app:layout_constraintStart_toStartOf="parent">
 
                     <androidx.constraintlayout.widget.ConstraintLayout
                         android:id="@+id/lay_content"
@@ -78,6 +77,7 @@
                             app:layout_constraintTop_toBottomOf="@+id/txt_jenis">
 
                             <androidx.constraintlayout.widget.ConstraintLayout
+                                android:id="@+id/con_lay"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent">
 
@@ -98,6 +98,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="15dp"
+                                    android:backgroundTint="#00FFFFFF"
                                     android:src="@drawable/ubur"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -119,6 +120,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="15dp"
+                                    android:backgroundTint="#00FFFFFF"
                                     android:src="@drawable/ikan"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toTopOf="parent" />
@@ -128,6 +130,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="15dp"
+                                    android:backgroundTint="#00FFFFFF"
                                     android:src="@drawable/turtle"
                                     app:layout_constraintStart_toStartOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/txtfish" />
@@ -137,6 +140,7 @@
                                     android:layout_width="wrap_content"
                                     android:layout_height="wrap_content"
                                     android:layout_margin="15dp"
+                                    android:backgroundTint="#00FFFFFF"
                                     android:src="@drawable/kudalaut"
                                     app:layout_constraintEnd_toEndOf="parent"
                                     app:layout_constraintTop_toBottomOf="@+id/txtjelly" />

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KuraFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/jdl_content3"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:background="@color/black"
+            android:gravity="center"
+            android:text="TURTLE"
+            android:textAlignment="center"
+            android:textColor="@color/BlueSea"
+            android:textSize="38dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <FrameLayout
+            android:id="@+id/frm_content3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/eksplorasi_background"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/jdl_content3">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/img_kura"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kurakura"
+                    android:layout_margin="15dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/turtle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Turtle / Kura - Kura"
+                    android:textSize="16dp"
+                    android:textStyle="bold|italic"
+                    android:background="@color/white"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/img_kura" />
+
+                <TextView
+                    android:id="@+id/cnt_turtle"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:textStyle="bold"
+                    android:text="Kura-kura adalah hewan reptil yang memiliki tempurung keras sebagai pelindung tubuhnya. Di Indonesia, terdapat berbagai jenis kura-kura yang hidup di berbagai habitat, baik di darat maupun di perairan. Berikut adalah beberapa fakta menarik tentang kura-kura di Indonesia :"
+                    android:textColor="@color/white"
+                    android:textSize="12dp"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/turtle" />
+
+                <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:text="Keanekaragaman Spesies: Indonesia merupakan rumah bagi berbagai spesies kura-kura, termasuk kura-kura darat, air tawar, dan penyu (kura-kura laut). Beberapa spesies yang terkenal antara lain kura-kura darat Sulawesi (Indotestudo forstenii), kura-kura leher ular Rote (Chelodina mccordi), dan penyu hijau (Chelonia mydas)."
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:layout_margin="10dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/cnt_turtle" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:layout_margin="10dp"
+                    android:text="Habitat: Kura-kura di Indonesia dapat ditemukan di berbagai habitat, seperti hutan, rawa, sungai, dan laut. Setiap spesies memiliki habitat spesifik yang mendukung kebutuhan hidupnya."
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView9" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
